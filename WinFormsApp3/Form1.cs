@@ -232,9 +232,9 @@ namespace WinFormsApp3
         {
             using (SPClient.ClientContext context = new SPClient.ClientContext("https://your-sharepoint-site-url"))
             {
-                // Authentification (remplacez "your-username" et "your-password" par vos informations d'identification SharePoint)
-                string userName = "your-username";
-                string password = "your-password";
+                // Authentification  identificatio ShartPot
+                string userName = "id";
+                string password = "mdp";
 
                 context.Credentials = new NetworkCredential(userName, password);
 
